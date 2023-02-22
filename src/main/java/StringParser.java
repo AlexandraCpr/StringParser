@@ -11,7 +11,7 @@ public class StringParser {
             showMenu();
             System.out.println("Select an option: ");
             selectedOption = scannerNumbers.nextInt();
-            //verifyString();
+            
             switch (selectedOption) {
                 case 1:
                     convertStringUppercase();
